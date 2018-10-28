@@ -7,14 +7,21 @@
       <change afterPath="$PROJECT_DIR$/../untitled/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ArcheryTorunament.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ArcheryTorunament.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ArcheryTorunament.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ArcheryTournament.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArcheryTorunament/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ArcheryTorunament/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArcheryTorunament/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ArcheryTournament/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArcheryTorunament/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ArcheryTournament/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArcheryTorunament/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ArcheryTournament/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArcheryTorunament/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ArcheryTournament/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArcheryTorunament/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/ArcheryTournament/wsgi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../University_ClassForms/.idea/University_ClassForms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../University_ClassForms/.idea/University_ClassForms.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../University_ClassForms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../University_ClassForms/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../University_ClassForms/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../University_ClassForms/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../University_ClassForms/templates/sign_for_course.html" beforeDir="false" afterPath="$PROJECT_DIR$/../University_ClassForms/templates/sign_for_course.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../University_ClassForms/zapisy/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../University_ClassForms/zapisy/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../University_ClassForms/zapisy/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../University_ClassForms/zapisy/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,9 +42,10 @@
     <session id="-1934333205">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -63,28 +71,58 @@
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
     </session>
+    <session id="418884739">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="72" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="72" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ArcheryTorunament/views.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ArcheryTournament/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="87" selection-start-line="8" selection-start-column="87" selection-end-line="8" selection-end-column="87" />
+              <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
-                <marker date="1540649484550" expanded="true" signature="111:113" ph="..." />
-                <marker date="1540649484550" expanded="true" signature="111:117" ph="..." />
+                <marker date="1540722344570" expanded="true" signature="111:113" ph="..." />
+                <marker date="1540722344570" expanded="true" signature="111:117" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ArcheryTorunament/urls.py">
+        <entry file="file://$PROJECT_DIR$/ArcheryTournament/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
               <folding>
                 <element signature="e#641#673#0" expanded="true" />
               </folding>
@@ -95,11 +133,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            <state relative-caret-position="340">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#22#31#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ArcheryTournament/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -117,6 +164,9 @@
     <findStrings>
       <find>HttpResponse</find>
       <find>8000</find>
+      <find>toru</find>
+      <find>CORS_ORIGIN_ALLOW_ALL</find>
+      <find>middle</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -125,9 +175,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/ArcheryTorunament/urls.py" />
         <option value="$PROJECT_DIR$/ArcheryTorunament/views.py" />
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/ArcheryTournament/views.py" />
+        <option value="$PROJECT_DIR$/ArcheryTournament/settings.py" />
       </list>
     </option>
   </component>
@@ -163,23 +215,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ArcheryTorunament" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ArcheryTorunament" type="462c0819:PsiDirectoryNode" />
+              <item name="ArcheryTournament" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArcheryTournament" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ArcheryTorunament" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ArcheryTorunament" type="462c0819:PsiDirectoryNode" />
-              <item name="ArcheryTorunament" type="462c0819:PsiDirectoryNode" />
+              <item name="ArcheryTournament" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArcheryTournament" type="462c0819:PsiDirectoryNode" />
+              <item name="ArcheryTournament" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -187,7 +239,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -249,7 +301,7 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="ArcheryTorunament" />
+      <module name="ArcheryTournament" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -271,7 +323,7 @@
       <method v="2" />
     </configuration>
     <configuration name="urls" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ArcheryTorunament" />
+      <module name="ArcheryTournament" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -293,7 +345,7 @@
       <method v="2" />
     </configuration>
     <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ArcheryTorunament" />
+      <module name="ArcheryTournament" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -315,7 +367,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unnamed" type="Python.DjangoServer" factoryName="Django server">
-      <module name="ArcheryTorunament" />
+      <module name="ArcheryTournament" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -339,15 +391,15 @@
       <method v="2" />
     </configuration>
     <configuration name="untitled" type="Python.DjangoServer" factoryName="Django server">
-      <module name="ArcheryTorunament" />
+      <module name="ArcheryTournament" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DJANGO_SETTINGS_MODULE" value="untitled.settings" />
+        <env name="DJANGO_SETTINGS_MODULE" value="ArcheryTournament.settings" />
       </envs>
       <option name="SDK_HOME" value="E:\VEnvs\Django\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -443,13 +495,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25248072" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26074973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32952183" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32952183" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32952183" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -458,7 +511,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32952183" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32952183" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32952183" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -480,27 +533,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../University_ClassForms/zapisy/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ArcheryTorunament/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../untitled/untitled/urls.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -510,35 +547,42 @@
         <state relative-caret-position="-255" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ArcheryTorunament/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding>
-            <element signature="e#641#673#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#22#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ArcheryTorunament/views.py">
+    <entry file="file://$PROJECT_DIR$/ArcheryTournament/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="87" selection-start-line="8" selection-start-column="87" selection-end-line="8" selection-end-column="87" />
+          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
-            <marker date="1540649484550" expanded="true" signature="111:113" ph="..." />
-            <marker date="1540649484550" expanded="true" signature="111:117" ph="..." />
+            <marker date="1540722344570" expanded="true" signature="111:113" ph="..." />
+            <marker date="1540722344570" expanded="true" signature="111:117" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArcheryTournament/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding>
+            <element signature="e#641#673#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArcheryTournament/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
