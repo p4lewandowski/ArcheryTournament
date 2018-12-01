@@ -29,7 +29,7 @@ def send_participants(request):
 @csrf_exempt
 def get_participants(request):
     if request.method == "POST":
-        participants = json.loads(request.body)['participants'].split(';')
+        participants = json.loads(request.body.decode('utf-8'))['participants'].split(';')
 
         # Add participants in fancy way
         [Participant.objects.create(name=x.split(' ')[0],
