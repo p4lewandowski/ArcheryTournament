@@ -8,7 +8,7 @@ class Participant(models.Model):
     points = models.IntegerField()
 
     def __str__(self):
-        return "Uczestnik " + self.name + " " + self.surname
+        return self.name + " " + self.surname
 
     def as_json(self):
         return dict(

@@ -23,4 +23,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('test/', views.json_pass),
     path('participants/', include('participants.urls')),
+
 ]
