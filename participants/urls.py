@@ -7,6 +7,7 @@ urlpatterns = [
     path('', views.send_participants),
     path('csv/', views.get_participants),
     path('delete/', views.delete_database),
-    path('ladder1/', views.ladder),
-    path('ladder2/', views.ladder2),
+    path('ladder_all/', views.ladder_all),
+    path('ladder_tournament/', views.ladder_tournament),
+    path('buildladder_all/', views.buildladder_all),
 ]

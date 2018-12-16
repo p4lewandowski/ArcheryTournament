@@ -14,4 +14,6 @@ class Participant(models.Model):
         return dict(
             name=self.name,
             surname=self.surname,
-            points=self.points)
+            points=self.points,
+            id=self.id)
+

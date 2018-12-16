@@ -6,6 +6,7 @@ import math, random, json
 import random
 # Create your views here.
 
+participants = []
 def create_mock_data(num):
     """
     Create number of temporary Participants objects.
@@ -84,44 +85,7 @@ def next_round(ladder):
         ladder[position] = (competitors0[position - 1], competitors1[position - 1])
     return ladder
 
-def ladder(request):
-
-    nr_of_players = 16
-    nr_of_rounds = 1
-    participants = getsort_participants(nr_of_players)
-    complete_ladder = []
-
-    player_numbers = range(1, nr_of_players + 1)
-
-    if nr_of_players % 2:
-        player_numbers += ["free"]
-        nr_of_rounds = nr_of_players
-    else:
-        nr_of_rounds = nr_of_players - 1
-
-    nr_of_pairs = math.ceil(nr_of_players / 2)
-
-    ladder = {position: competing_pair for position, competing_pair in
-              enumerate([(player_numbers[index], player_numbers[-(index + 1)]) for index in range(0, nr_of_pairs)], 1)}
-    complete_ladder.append(ladder.copy())
-
-    for round_nr in range(0, nr_of_rounds):
-        print("Round nr {}".format(round_nr + 1))
-        print(ladder)
-        ladder = next_round(ladder)
-        complete_ladder.append(ladder.copy())
-
-    #Placing name and surname in place of id
-    for round in complete_ladder:
-        for duel in round.keys():
-            round[duel] = (participants[round[duel][0]-1],
-                           participants[round[duel][1]-1])
-
-    dict_ladder = dict(zip(list(range(1, nr_of_rounds+1)), complete_ladder))
-
-    return JsonResponse(dict_ladder)
-
-def ladder2(request):
+def ladder_tournament(request):
     nr_of_players = 104
     free_to_16 = 8
     stages = [48, 24, 16, 8, 4, 2, 1]
@@ -258,3 +222,49 @@ def ladder2(request):
                         participants[ladder[duel][1]-1])
 
     return JsonResponse(ladder)
+
+def ladder_all(request, nr_of_players, participants):
+
+    nr_of_rounds = 1
+    complete_ladder = []
+
+    player_numbers = range(1, nr_of_players + 1)
+
+    if nr_of_players % 2:
+        player_numbers += ["free"]
+        nr_of_rounds = nr_of_players
+    else:
+        nr_of_rounds = nr_of_players - 1
+
+    nr_of_pairs = math.ceil(nr_of_players / 2)
+
+    ladder = {position: competing_pair for position, competing_pair in
+              enumerate([(player_numbers[index], player_numbers[-(index + 1)]) for index in range(0, nr_of_pairs)], 1)}
+    complete_ladder.append(ladder.copy())
+
+    for round_nr in range(0, nr_of_rounds):
+        print("Round nr {}".format(round_nr + 1))
+        print(ladder)
+        ladder = next_round(ladder)
+        complete_ladder.append(ladder.copy())
+
+    #Placing name and surname in place of id
+    for round in complete_ladder:
+        for duel in round.keys():
+            round[duel] = (participants[round[duel][0]-1],
+                           participants[round[duel][1]-1])
+
+    dict_ladder = dict(zip(list(range(1, nr_of_rounds+1)), complete_ladder))
+
+    return JsonResponse(dict_ladder)
+
+@csrf_exempt
+def buildladder_all(request):
+    if request.method == "POST":
+        participants_id = json.loads(request.body.decode('utf-8'))['participantIds']
+        participants = Participant.objects.filter(id__in=participants_id).order_by('points')[::-1]
+        participants = [str(x) for x in participants]
+
+        participantsCount = json.loads(request.body.decode('utf-8'))['participantsCount']
+
+        return ladder_all(request, participantsCount, participants)
