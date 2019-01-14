@@ -268,3 +268,120 @@ def buildladder_all(request):
         participantsCount = json.loads(request.body.decode('utf-8'))['participantsCount']
 
         return ladder_all(request, participantsCount, participants)
+
+def teamladder_tournament():
+    #Use whole team as a member for tournament method
+    pass
+
+def teamladder_freepass():
+    druzyny = [24]
+    posortowane_druzyny = [24]
+    drabinka_pucharowa = [32]
+
+    if len(posortowane_druzyny) > 16:
+        drabinka_pucharowa[0] = posortowane_druzyny[0]
+        drabinka_pucharowa[1] = ""
+        drabinka_pucharowa[2] = posortowane_druzyny[15]
+        drabinka_pucharowa[3] = posortowane_druzyny[16]
+        drabinka_pucharowa[4] = posortowane_druzyny[23]
+        drabinka_pucharowa[5] = posortowane_druzyny[8]
+        drabinka_pucharowa[6] = ""
+        drabinka_pucharowa[7] = posortowane_druzyny[7]
+        drabinka_pucharowa[8] = posortowane_druzyny[4]
+        drabinka_pucharowa[9] = ""
+        drabinka_pucharowa[10] = posortowane_druzyny[11]
+        drabinka_pucharowa[11] = posortowane_druzyny[20]
+        drabinka_pucharowa[12] = posortowane_druzyny[12]
+        drabinka_pucharowa[13] = posortowane_druzyny[19]
+        drabinka_pucharowa[14] = posortowane_druzyny[3]
+        drabinka_pucharowa[15] = ""
+        drabinka_pucharowa[16] = posortowane_druzyny[2]
+        drabinka_pucharowa[17] = ""
+        drabinka_pucharowa[18] = posortowane_druzyny[13]
+        drabinka_pucharowa[19] = posortowane_druzyny[18]
+        drabinka_pucharowa[20] = posortowane_druzyny[10]
+        drabinka_pucharowa[21] = posortowane_druzyny[21]
+        drabinka_pucharowa[22] = posortowane_druzyny[5]
+        drabinka_pucharowa[23] = ""
+        drabinka_pucharowa[24] = posortowane_druzyny[6]
+        drabinka_pucharowa[25] = ""
+        drabinka_pucharowa[26] = posortowane_druzyny[9]
+        drabinka_pucharowa[27] = posortowane_druzyny[22]
+        drabinka_pucharowa[28] = posortowane_druzyny[14]
+        drabinka_pucharowa[29] = posortowane_druzyny[17]
+        drabinka_pucharowa[30] = ""
+        drabinka_pucharowa[31] = posortowane_druzyny[1]
+    elif len(posortowane_druzyny) > 8:
+        drabinka_pucharowa[0] = posortowane_druzyny[0]
+        drabinka_pucharowa[1] = posortowane_druzyny[15]
+        drabinka_pucharowa[2] = posortowane_druzyny[8]
+        drabinka_pucharowa[3] = posortowane_druzyny[7]
+        drabinka_pucharowa[4] = posortowane_druzyny[4]
+        drabinka_pucharowa[5] = posortowane_druzyny[11]
+        drabinka_pucharowa[6] = posortowane_druzyny[12]
+        drabinka_pucharowa[7] = posortowane_druzyny[3]
+        drabinka_pucharowa[8] = posortowane_druzyny[2]
+        drabinka_pucharowa[9] = posortowane_druzyny[13]
+        drabinka_pucharowa[10] = posortowane_druzyny[10]
+        drabinka_pucharowa[11] = posortowane_druzyny[5]
+        drabinka_pucharowa[12] = posortowane_druzyny[6]
+        drabinka_pucharowa[13] = posortowane_druzyny[9]
+        drabinka_pucharowa[14] = posortowane_druzyny[14]
+        drabinka_pucharowa[15] = posortowane_druzyny[1]
+    elif len(posortowane_druzyny) > 4:
+        drabinka_pucharowa[0] = posortowane_druzyny[0]
+        drabinka_pucharowa[1] = posortowane_druzyny[7]
+        drabinka_pucharowa[2] = posortowane_druzyny[4]
+        drabinka_pucharowa[3] = posortowane_druzyny[3]
+        drabinka_pucharowa[4] = posortowane_druzyny[2]
+        drabinka_pucharowa[5] = posortowane_druzyny[5]
+        drabinka_pucharowa[6] = posortowane_druzyny[6]
+        drabinka_pucharowa[7] = posortowane_druzyny[1]
+    elif len(posortowane_druzyny) > 2:
+        drabinka_pucharowa[0] = posortowane_druzyny[0]
+        drabinka_pucharowa[1] = posortowane_druzyny[3]
+        drabinka_pucharowa[2] = posortowane_druzyny[2]
+        drabinka_pucharowa[3] = posortowane_druzyny[1]
+    elif len(posortowane_druzyny) > 1:
+        drabinka_pucharowa[0] = posortowane_druzyny[0]
+        drabinka_pucharowa[1] = posortowane_druzyny[1]
+
+def teamladder_nofreepass():
+    druzyny = [16]
+    posortowane_druzyny = [16]
+    drabinka_pucharowa = [16]
+
+    if len(posortowane_druzyny) > 8:
+        drabinka_pucharowa[0] = posortowane_druzyny[0]
+        drabinka_pucharowa[1] = posortowane_druzyny[15]
+        drabinka_pucharowa[2] = posortowane_druzyny[8]
+        drabinka_pucharowa[3] = posortowane_druzyny[7]
+        drabinka_pucharowa[4] = posortowane_druzyny[4]
+        drabinka_pucharowa[5] = posortowane_druzyny[11]
+        drabinka_pucharowa[6] = posortowane_druzyny[12]
+        drabinka_pucharowa[7] = posortowane_druzyny[3]
+        drabinka_pucharowa[8] = posortowane_druzyny[2]
+        drabinka_pucharowa[9] = posortowane_druzyny[13]
+        drabinka_pucharowa[10] = posortowane_druzyny[10]
+        drabinka_pucharowa[11] = posortowane_druzyny[5]
+        drabinka_pucharowa[12] = posortowane_druzyny[6]
+        drabinka_pucharowa[13] = posortowane_druzyny[9]
+        drabinka_pucharowa[14] = posortowane_druzyny[14]
+        drabinka_pucharowa[15] = posortowane_druzyny[1]
+    elif len(posortowane_druzyny) > 4:
+        drabinka_pucharowa[0] = posortowane_druzyny[0]
+        drabinka_pucharowa[1] = posortowane_druzyny[7]
+        drabinka_pucharowa[2] = posortowane_druzyny[4]
+        drabinka_pucharowa[3] = posortowane_druzyny[3]
+        drabinka_pucharowa[4] = posortowane_druzyny[2]
+        drabinka_pucharowa[5] = posortowane_druzyny[5]
+        drabinka_pucharowa[6] = posortowane_druzyny[6]
+        drabinka_pucharowa[7] = posortowane_druzyny[1]
+    elif len(posortowane_druzyny) > 2:
+        drabinka_pucharowa[0] = posortowane_druzyny[0]
+        drabinka_pucharowa[1] = posortowane_druzyny[3]
+        drabinka_pucharowa[2] = posortowane_druzyny[2]
+        drabinka_pucharowa[3] = posortowane_druzyny[1]
+    elif len(posortowane_druzyny) > 1:
+        drabinka_pucharowa[0] = posortowane_druzyny[0]
+        drabinka_pucharowa[1] = posortowane_druzyny[1]
